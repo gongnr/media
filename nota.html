@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média do Aluno</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script>
+      var nota1 = parseFloat (prompt ("Informe o valor da primeira nota: "));
+      var nota2 = parseFloat (prompt ("Informe o valor da segunda nota: "));
+      var media = (nota1 + nota2) / 2;
+    </script>
+
+</head>
+<body>
+
+<script src=".\resultado.js"></script>
+
+<header class="header">Cálculo da Média</header>
+
+    
+<p id="inicio">Acione o botão abaixo para cálculo da média das notas informadas e indicação da situação do aluno.</p>
+
+<section>
+<button type="button" onclick="resultado()">Média</button>
+</section>
+    
+<div class="resultado">
+    <p>Média do Aluno: <span id="media"></span></p>
+    <p>Situação: <span id="situacao"></span></p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body, script, button, p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #1d1e20;
+    color: white;
+}
+
+#inicio {
+padding: 10px;
+background-color:bisque;
+text-align: center;
+}
+
+.resultado {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    font-style: oblique;
+}
